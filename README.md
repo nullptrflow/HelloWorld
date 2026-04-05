@@ -15,12 +15,12 @@ High-performance Minecraft packet proxy designed for seamless traffic synchroniz
 > >
 > > - Handshake Injection: Modifies the outgoing handshake packet to inject the target server IP and redirect traffic seamlessly.
 > > - - Client Synchronization: Supports up to 2 concurrent clients with primary/secondary control system.
-> >   - - Low Latency: Written in pure C++ using WinSock2 and asynchronous I/O (select) for minimal overhead.
-> >     - - Auto-Reconnect Loop: Automatically resets connection state and waits for new incoming sessions if a connection is lost.
+> >   - - Low Latency: Written in pure C++ using WinSock2.
+> >     - - Auto-Reconnect Loop: Automatically resets connection state and waits for new incoming sessions.
 > >      
 > >       - ### Version Support
 > >      
-> >       - - Tested on: Minecraft Java Edition 1.8.x - 1.20.x (and any versions using standard VarInt packet handling).
+> >       - - Tested on: Minecraft Java Edition 1.8.x - 1.20.x
 > >         - - Note: Works with most modern versions due to generic packet forwarding.
 > >          
 > >           - ---
